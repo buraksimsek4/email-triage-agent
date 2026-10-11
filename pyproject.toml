@@ -8,7 +8,9 @@ version = "0.1.0"
 description = "AI-assisted phishing triage for a test Outlook mailbox"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic>=2.7",
+]
 
 [project.optional-dependencies]
 dev = [
