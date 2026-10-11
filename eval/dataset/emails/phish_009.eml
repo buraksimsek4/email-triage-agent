@@ -1,0 +1,17 @@
+Return-Path: <bounce@freemail-box.example>
+Received: from mail.freemail-box.example ([192.0.2.18]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 17:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=freemail-box.example; dkim=pass header.d=freemail-box.example;
+ dmarc=none header.from=freemail-box.example
+From: "Alex Doe" <alex.doe.personal@freemail-box.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Direct deposit update before next payroll
+Date: Tue, 01 Sep 2026 17:00:00 +0000
+Message-ID: <phish_009@freemail-box.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi HR, I changed banks. Can you update my direct deposit before Friday's payr=
+oll? I can send the new account number once you confirm. Thanks, Alex

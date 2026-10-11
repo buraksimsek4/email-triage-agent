@@ -1,0 +1,17 @@
+Return-Path: <bounce@testmailbox.example>
+Received: from mail.testmailbox.example ([192.0.2.35]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 10:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=testmailbox.example; dkim=pass header.d=testmailbox.example;
+ dmarc=pass header.from=testmailbox.example
+From: "IT Service Desk" <servicedesk@testmailbox.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Planned maintenance Saturday 22:00-02:00 - VPN unavailable
+Date: Wed, 02 Sep 2026 10:00:00 +0000
+Message-ID: <benign_005@testmailbox.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+VPN and remote desktop will be unavailable during maintenance. After the wind=
+ow, sign in again through the usual company portal. No action needed now.

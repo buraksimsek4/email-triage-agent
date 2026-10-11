@@ -1,0 +1,31 @@
+Return-Path: <bounce@it-support-portal.example>
+Received: from mail.it-support-portal.example ([192.0.2.14]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 13:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=it-support-portal.example; dkim=none
+ header.d=it-support-portal.example; dmarc=none
+ header.from=it-support-portal.example
+From: "IT Helpdesk" <helpdesk@it-support-portal.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Mailbox storage full - messages will be rejected
+Date: Tue, 01 Sep 2026 13:00:00 +0000
+Message-ID: <phish_005@it-support-portal.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8047185887392907374=="
+
+--===============8047185887392907374==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+This message requires an HTML-capable mail client.
+
+--===============8047185887392907374==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your mailbox is 99% full. Incoming mail will be rejected.</p><p><a href=3D=
+"https://xn--testmailbx-q9a.example/upgrade">Increase storage</a></p>
+
+--===============8047185887392907374==--

@@ -1,0 +1,17 @@
+Return-Path: <bounce@codehub.example>
+Received: from mail.codehub.example ([192.0.2.40]) by mx1.testmailbox.example
+ with ESMTPS; Wed, 02 Sep 2026 15:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=codehub.example; dkim=pass header.d=codehub.example; dmarc=pass
+ header.from=codehub.example
+From: "CodeHub" <notifications@codehub.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: [alexdoe/email-triage-agent] PR #3: add header analyzer
+Date: Wed, 02 Sep 2026 15:00:00 +0000
+Message-ID: <benign_010@codehub.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Priya commented on your pull request: 'Looks good, one nit on the regex.' Vie=
+w it on CodeHub: https://codehub.example/alexdoe/email-triage-agent/pull/3

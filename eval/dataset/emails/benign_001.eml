@@ -1,0 +1,19 @@
+Return-Path: <bounce@fabrikam.example>
+Received: from mail.fabrikam.example ([192.0.2.31]) by mx1.testmailbox.example
+ with ESMTPS; Wed, 02 Sep 2026 06:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=fabrikam.example; dkim=pass header.d=fabrikam.example;
+ dmarc=pass header.from=fabrikam.example
+From: "Fabrikam Online" <no-reply@fabrikam.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Reset your Fabrikam password
+Date: Wed, 02 Sep 2026 06:00:00 +0000
+Message-ID: <benign_001@fabrikam.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+We received a request to reset your password. If this was you, use the link b=
+elow within 30 minutes: https://account.fabrikam.example/reset?token=3DREDACT=
+ED
+If you did not request this, you can ignore this email.

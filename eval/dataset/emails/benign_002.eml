@@ -1,0 +1,18 @@
+Return-Path: <bounce@contoso.example>
+Received: from mail.contoso.example ([192.0.2.32]) by mx1.testmailbox.example
+ with ESMTPS; Wed, 02 Sep 2026 07:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=contoso.example; dkim=pass header.d=contoso.example; dmarc=pass
+ header.from=contoso.example
+From: "Contoso Account Team" <account-security-noreply@contoso.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: New sign-in to your Contoso account
+Date: Wed, 02 Sep 2026 07:00:00 +0000
+Message-ID: <benign_002@contoso.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+We noticed a new sign-in from Windows, Istanbul. If this was you, no action i=
+s needed. If not, review your recent activity at https://account.contoso.exam=
+ple/activity

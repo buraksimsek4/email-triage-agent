@@ -1,0 +1,32 @@
+Return-Path: <mailer@bulk-sender-77.example>
+Received: from mail.northwind-traders.example ([192.0.2.11]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 10:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=fail
+ smtp.mailfrom=northwind-traders.example; dkim=none
+ header.d=northwind-traders.example; dmarc=fail
+ header.from=northwind-traders.example
+From: "DocuSign via Northwind" <dse@northwind-traders.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Reply-To: docs-team@freemail-box.example
+Subject: Alex, please review and sign: Q3 Bonus Agreement.pdf
+Date: Tue, 01 Sep 2026 10:00:00 +0000
+Message-ID: <phish_002@northwind-traders.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2432292970357733994=="
+
+--===============2432292970357733994==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+This message requires an HTML-capable mail client.
+
+--===============2432292970357733994==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Northwind HR sent you a document to review and sign.</p><p><a href=3D"http=
+s://docs-view-secure.example/s/8f3a">REVIEW DOCUMENT</a></p>
+
+--===============2432292970357733994==--

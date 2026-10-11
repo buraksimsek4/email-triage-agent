@@ -1,0 +1,21 @@
+# Secrets: real keys live only in .env, never in git
+.env
+
+# Python virtual environment and build output
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Real (non-synthetic) emails must never be committed
+eval/dataset/private/
+
+# macOS
+.DS_Store

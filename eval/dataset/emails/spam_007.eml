@@ -1,0 +1,18 @@
+Return-Path: <bounce@slim-keto-labs.example>
+Received: from mail.slim-keto-labs.example ([192.0.2.29]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 04:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=softfail
+ smtp.mailfrom=slim-keto-labs.example; dkim=none
+ header.d=slim-keto-labs.example; dmarc=none
+ header.from=slim-keto-labs.example
+From: "Slim Fast Labs" <news@slim-keto-labs.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Doctors hate this one trick
+Date: Wed, 02 Sep 2026 04:00:00 +0000
+Message-ID: <spam_007@slim-keto-labs.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Lose 10 kg in 2 weeks without diet or exercise. Try it risk free: https://sli=
+m-keto-labs.example

@@ -1,0 +1,18 @@
+Return-Path: <bounce@freemail-box.example>
+Received: from mail.freemail-box.example ([192.0.2.16]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 15:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=freemail-box.example; dkim=pass header.d=freemail-box.example;
+ dmarc=none header.from=freemail-box.example
+From: "Jordan Miles (CEO)" <jordan.miles.ceo@freemail-box.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Quick favor
+Date: Tue, 01 Sep 2026 15:00:00 +0000
+Message-ID: <phish_007@freemail-box.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Alex, are you at your desk? I need you to buy 5 gift cards of 200 USD each fo=
+r a client meeting. Keep this between us, I will reimburse you today. Send me=
+ the codes as soon as possible. Sent from my phone.

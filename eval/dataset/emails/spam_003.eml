@@ -1,0 +1,18 @@
+Return-Path: <bounce@rank-first-seo.example>
+Received: from mail.rank-first-seo.example ([192.0.2.25]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 00:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=rank-first-seo.example; dkim=none
+ header.d=rank-first-seo.example; dmarc=none
+ header.from=rank-first-seo.example
+From: "Ravi | SEO Expert" <ravi@rank-first-seo.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Your website is not ranking on Google
+Date: Wed, 02 Sep 2026 00:00:00 +0000
+Message-ID: <spam_003@rank-first-seo.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi, I checked your website and found 37 SEO errors. We can get you to page 1 =
+for a small monthly fee. Reply YES for a free audit.

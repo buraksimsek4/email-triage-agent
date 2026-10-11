@@ -1,0 +1,31 @@
+Return-Path: <bounce@northwind-traders-hr.example>
+Received: from mail.northwind-traders-hr.example ([192.0.2.20]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 19:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=northwind-traders-hr.example; dkim=none
+ header.d=northwind-traders-hr.example; dmarc=none
+ header.from=northwind-traders-hr.example
+From: "HR Department" <hr@northwind-traders-hr.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Updated salary structure 2027 - confidential
+Date: Tue, 01 Sep 2026 19:00:00 +0000
+Message-ID: <phish_011@northwind-traders-hr.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6086520803595798843=="
+
+--===============6086520803595798843==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please review the attached salary structure. If the content is not visible, c=
+lick 'Enable Content' at the top of the document.
+
+--===============6086520803595798843==
+Content-Type: application/vnd.ms-word.document.macroEnabled.12
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Salary_Structure_2027.docm"
+MIME-Version: 1.0
+
+SEFSTUxFU1MgVEVTVCBQTEFDRUhPTERFUiAtIG5vIG1hY3JvIGluc2lkZQ==
+
+--===============6086520803595798843==--

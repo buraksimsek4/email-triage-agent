@@ -1,0 +1,32 @@
+Return-Path: <bounce@contoso-invoices.example>
+Received: from mail.contoso-invoices.example ([192.0.2.15]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 14:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=contoso-invoices.example; dkim=pass
+ header.d=contoso-invoices.example; dmarc=none
+ header.from=contoso-invoices.example
+From: "Accounts Payable" <ap@contoso-invoices.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Remittance advice #44817
+Date: Tue, 01 Sep 2026 14:00:00 +0000
+Message-ID: <phish_006@contoso-invoices.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6550073046695727143=="
+
+--===============6550073046695727143==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please find the remittance advice attached. Open the file and sign in to view.
+
+--===============6550073046695727143==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Remittance_44817.html"
+MIME-Version: 1.0
+
+PGh0bWw+PGJvZHk+PGZvcm0gYWN0aW9uPSdodHRwczovL2NvbGxlY3QuaW52YWxpZC94Jz48aW5w
+dXQgbmFtZT0nZW1haWwnPjxpbnB1dCB0eXBlPSdwYXNzd29yZCcgbmFtZT0ncHcnPjwvZm9ybT48
+L2JvZHk+PC9odG1sPg==
+
+--===============6550073046695727143==--

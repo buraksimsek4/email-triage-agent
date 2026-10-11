@@ -1,0 +1,18 @@
+Return-Path: <bounce@office-supplies-direct.example>
+Received: from mail.office-supplies-direct.example ([192.0.2.28]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 03:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=office-supplies-direct.example; dkim=pass
+ header.d=office-supplies-direct.example; dmarc=pass
+ header.from=office-supplies-direct.example
+From: "Office Supplies Direct" <promo@office-supplies-direct.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Back to office sale: printer ink 3 for 2
+Date: Wed, 02 Sep 2026 03:00:00 +0000
+Message-ID: <spam_006@office-supplies-direct.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Stock up for the season. Printer ink, paper and more. https://office-supplies=
+-direct.example/sale

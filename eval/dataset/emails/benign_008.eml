@@ -1,0 +1,17 @@
+Return-Path: <bounce@wideworld.example>
+Received: from mail.wideworld.example ([192.0.2.38]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 13:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=wideworld.example; dkim=pass header.d=wideworld.example;
+ dmarc=pass header.from=wideworld.example
+From: "Wide World Shipping" <tracking@wideworld.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Your order has shipped
+Date: Wed, 02 Sep 2026 13:00:00 +0000
+Message-ID: <benign_008@wideworld.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Good news, order 112-4471 has shipped. Track it here: https://wideworld.examp=
+le/track/112-4471

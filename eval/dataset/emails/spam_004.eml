@@ -1,0 +1,31 @@
+Return-Path: <bounce@lux-watch-outlet.example>
+Received: from mail.lux-watch-outlet.example ([192.0.2.26]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 01:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=neutral
+ smtp.mailfrom=lux-watch-outlet.example; dkim=none
+ header.d=lux-watch-outlet.example; dmarc=none
+ header.from=lux-watch-outlet.example
+From: "Luxury Outlet" <sale@lux-watch-outlet.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Luxury watches from 99 USD - today only
+Date: Wed, 02 Sep 2026 01:00:00 +0000
+Message-ID: <spam_004@lux-watch-outlet.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0245810326858609541=="
+
+--===============0245810326858609541==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+This message requires an HTML-capable mail client.
+
+--===============0245810326858609541==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><img src=3D"https://lux-watch-outlet.example/banner.jpg" alt=3D"SALE"></p>=
+<p><a href=3D"https://lux-watch-outlet.example/shop">Shop now</a></p>
+
+--===============0245810326858609541==--

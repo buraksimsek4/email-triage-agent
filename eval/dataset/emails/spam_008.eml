@@ -1,0 +1,18 @@
+Return-Path: <bounce@b2b-leadgen-events.example>
+Received: from mail.b2b-leadgen-events.example ([192.0.2.30]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 05:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=b2b-leadgen-events.example; dkim=pass
+ header.d=b2b-leadgen-events.example; dmarc=none
+ header.from=b2b-leadgen-events.example
+From: "Events Team" <events@b2b-leadgen-events.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Invitation: Top 50 CIO Summit (virtual)
+Date: Wed, 02 Sep 2026 05:00:00 +0000
+Message-ID: <spam_008@b2b-leadgen-events.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+You are invited to our exclusive virtual summit. Register here: https://b2b-l=
+eadgen-events.example/cio

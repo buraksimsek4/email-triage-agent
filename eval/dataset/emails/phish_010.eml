@@ -1,0 +1,31 @@
+Return-Path: <bounce@contoso-invoices.example>
+Received: from mail.contoso-invoices.example ([192.0.2.19]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 18:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=fail
+ smtp.mailfrom=contoso-invoices.example; dkim=none
+ header.d=contoso-invoices.example; dmarc=fail
+ header.from=contoso-invoices.example
+From: "Billing Department" <billing@contoso-invoices.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Overdue invoice - final notice
+Date: Tue, 01 Sep 2026 18:00:00 +0000
+Message-ID: <phish_010@contoso-invoices.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0699663054062013729=="
+
+--===============0699663054062013729==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your invoice is overdue. See attached invoice and pay within 48 hours to avoi=
+d legal action.
+
+--===============0699663054062013729==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_88213.pdf.exe"
+MIME-Version: 1.0
+
+SEFSTUxFU1MgVEVTVCBQTEFDRUhPTERFUiAtIG5vdCBhIHJlYWwgZXhlY3V0YWJsZQ==
+
+--===============0699663054062013729==--

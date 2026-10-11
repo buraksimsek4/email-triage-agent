@@ -1,0 +1,33 @@
+Return-Path: <bounce@news.tailspin.example>
+Received: from mail.news.tailspin.example ([192.0.2.34]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 09:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=news.tailspin.example; dkim=pass
+ header.d=news.tailspin.example; dmarc=pass header.from=news.tailspin.example
+From: "Tailspin Weekly" <newsletter@news.tailspin.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: This week in security: 5 stories you missed
+Date: Wed, 02 Sep 2026 09:00:00 +0000
+Message-ID: <benign_004@news.tailspin.example>
+List-Unsubscribe: <https://news.tailspin.example/unsub?id=9f>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7557690149483930586=="
+
+--===============7557690149483930586==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+This message requires an HTML-capable mail client.
+
+--===============7557690149483930586==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Top stories this week.</p><p><a href=3D"https://click.news.tailspin.exampl=
+e/r/abc123">Read more</a></p><img src=3D"https://track.news.tailspin.example/=
+open.gif?id=3D9f" width=3D"1" height=3D"1">
+
+--===============7557690149483930586==--

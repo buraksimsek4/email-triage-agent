@@ -1,0 +1,18 @@
+Return-Path: <bounce@crypto-signal-pro.example>
+Received: from mail.crypto-signal-pro.example ([192.0.2.24]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 23:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=crypto-signal-pro.example; dkim=pass
+ header.d=crypto-signal-pro.example; dmarc=pass
+ header.from=crypto-signal-pro.example
+From: "Crypto Profits" <info@crypto-signal-pro.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Turn 250 USD into 10,000 USD in 30 days
+Date: Tue, 01 Sep 2026 23:00:00 +0000
+Message-ID: <spam_002@crypto-signal-pro.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Our AI trading bot made members rich. Limited spots left. Join today: https:/=
+/crypto-signal-pro.example/join

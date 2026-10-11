@@ -1,0 +1,18 @@
+Return-Path: <bounce@global-prize-center.example>
+Received: from mail.global-prize-center.example ([192.0.2.27]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 02:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=global-prize-center.example; dkim=none
+ header.d=global-prize-center.example; dmarc=none
+ header.from=global-prize-center.example
+From: "Global Prize Center" <winner@global-prize-center.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Congratulations! You have been selected
+Date: Wed, 02 Sep 2026 02:00:00 +0000
+Message-ID: <spam_005@global-prize-center.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your email address was randomly selected in our international draw. Visit our=
+ site to see your prize: https://global-prize-center.example

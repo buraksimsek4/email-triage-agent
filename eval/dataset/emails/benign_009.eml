@@ -1,0 +1,22 @@
+Return-Path: <sec-discuss-bounces@lists.example>
+Received: from mail.adatum.example ([192.0.2.39]) by mx1.testmailbox.example
+ with ESMTPS; Wed, 02 Sep 2026 14:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=lists.example; dkim=fail header.d=adatum.example; dmarc=fail
+ header.from=adatum.example; arc=pass
+From: "Chris Lee" <chris.lee@adatum.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: [sec-discuss] Thoughts on DMARC p=reject rollout
+Date: Wed, 02 Sep 2026 14:00:00 +0000
+Message-ID: <benign_009@adatum.example>
+List-Id: <sec-discuss.lists.example>
+ARC-Authentication-Results:
+ i=1; lists.example; dkim=pass header.d=adatum.example; dmarc=pass
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Has anyone moved straight to p=3Dreject? We are at p=3Dquarantine and seeing =
+some forwarding breakage.
+--
+sec-discuss mailing list

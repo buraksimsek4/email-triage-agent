@@ -1,0 +1,30 @@
+Return-Path: <bounce@litware.example>
+Received: from mail.litware.example ([192.0.2.33]) by mx1.testmailbox.example
+ with ESMTPS; Wed, 02 Sep 2026 08:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=litware.example; dkim=pass header.d=litware.example; dmarc=pass
+ header.from=litware.example
+From: "Litware Billing" <billing@litware.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Your Litware invoice for September 2026
+Date: Wed, 02 Sep 2026 08:00:00 +0000
+Message-ID: <benign_003@litware.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4400165446421529691=="
+
+--===============4400165446421529691==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thanks for your business. Your invoice INV-2026-09-3341 for 12.00 USD is atta=
+ched. It will be charged to your card on file.
+
+--===============4400165446421529691==
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-2026-09-3341.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQKJSBoYXJtbGVzcyBwbGFjZWhvbGRlcgolJUVPRgo=
+
+--===============4400165446421529691==--

@@ -1,0 +1,18 @@
+Return-Path: <bounce@northwind-traders.example>
+Received: from mail.northwind-traders.example ([192.0.2.42]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 17:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=northwind-traders.example; dkim=pass
+ header.d=northwind-traders.example; dmarc=pass
+ header.from=northwind-traders.example
+From: "Sam Carter - Northwind Traders" <sam.carter@northwind-traders.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Payment received - invoice 2026-0815
+Date: Wed, 02 Sep 2026 17:00:00 +0000
+Message-ID: <benign_012@northwind-traders.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, we confirm receipt of your payment for invoice 2026-0815. Thank you. O=
+ur banking details remain unchanged.

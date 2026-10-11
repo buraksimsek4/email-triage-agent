@@ -1,0 +1,18 @@
+Return-Path: <bounce@fabrikam-bank-secure.example>
+Received: from mail.fabrikam-bank-secure.example ([192.0.2.12]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 11:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=softfail
+ smtp.mailfrom=fabrikam-bank-secure.example; dkim=none
+ header.d=fabrikam-bank-secure.example; dmarc=fail
+ header.from=fabrikam-bank-secure.example
+From: "Fabrikam Bank Security" <alerts@fabrikam-bank-secure.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Unusual activity: your account has been temporarily locked
+Date: Tue, 01 Sep 2026 11:00:00 +0000
+Message-ID: <phish_003@fabrikam-bank-secure.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+We detected unusual sign-in activity. Verify your identity within 24 hours or=
+ your account will be permanently closed: http://198.51.100.23/fabrikam/verify

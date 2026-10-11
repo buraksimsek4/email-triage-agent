@@ -1,0 +1,17 @@
+Return-Path: <bounce@testmailbox.example>
+Received: from mail.testmailbox.example ([192.0.2.37]) by
+ mx1.testmailbox.example with ESMTPS; Wed, 02 Sep 2026 12:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=testmailbox.example; dkim=pass header.d=testmailbox.example;
+ dmarc=pass header.from=testmailbox.example
+From: "People Team" <people@testmailbox.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Open enrollment closes October 31
+Date: Wed, 02 Sep 2026 12:00:00 +0000
+Message-ID: <benign_007@testmailbox.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Open enrollment for 2027 benefits is open until October 31. Review your optio=
+ns on the benefits portal: https://benefits.adatum.example/enroll

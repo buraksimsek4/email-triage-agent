@@ -1,0 +1,18 @@
+Return-Path: <bounce@parcel-redelivery.example>
+Received: from mail.parcel-redelivery.example ([192.0.2.13]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 12:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=parcel-redelivery.example; dkim=pass
+ header.d=parcel-redelivery.example; dmarc=pass
+ header.from=parcel-redelivery.example
+From: "Parcel Delivery" <notice@parcel-redelivery.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Your package could not be delivered - pay 1.99 EUR redelivery fee
+Date: Tue, 01 Sep 2026 12:00:00 +0000
+Message-ID: <phish_004@parcel-redelivery.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your parcel is on hold due to an unpaid customs fee of 1.99 EUR. Pay now to s=
+chedule redelivery: https://sho.rt.example/Xy7Kq

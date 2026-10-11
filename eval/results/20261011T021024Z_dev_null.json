@@ -1,0 +1,106 @@
+{
+  "name": "null",
+  "split": "dev",
+  "created_utc": "20261011T021024Z",
+  "n": 9,
+  "phishing_detection": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 4,
+    "tn": 5,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null,
+    "fpr": 0.0
+  },
+  "benign_flag_rate": 1.0,
+  "category_accuracy": 0.0,
+  "invalid_or_missing_predictions": 9,
+  "confusion_matrix": {
+    "phishing": {
+      "phishing": 0,
+      "spam": 0,
+      "benign": 0,
+      "error": 4
+    },
+    "spam": {
+      "phishing": 0,
+      "spam": 0,
+      "benign": 0,
+      "error": 2
+    },
+    "benign": {
+      "phishing": 0,
+      "spam": 0,
+      "benign": 0,
+      "error": 3
+    }
+  },
+  "avg_latency_ms": null,
+  "avg_cost_usd": null,
+  "mistakes": [
+    {
+      "file": "emails/phish_003.eml",
+      "expected": "phishing/credential_phishing",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "Bank account lock; IP-literal URL; urgency and threat language."
+    },
+    {
+      "file": "emails/phish_006.eml",
+      "expected": "phishing/credential_phishing",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "HTML attachment lure (credential form inside .html attachment, harmless placeholder)."
+    },
+    {
+      "file": "emails/phish_009.eml",
+      "expected": "phishing/bec",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "Payroll diversion: employee impersonation asking HR to change direct deposit."
+    },
+    {
+      "file": "emails/phish_013.eml",
+      "expected": "phishing/credential_phishing",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "Prompt injection in visible text, posing as a security-team message; asks for credentials."
+    },
+    {
+      "file": "emails/spam_003.eml",
+      "expected": "spam/spam",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "Unsolicited SEO services cold email."
+    },
+    {
+      "file": "emails/spam_006.eml",
+      "expected": "spam/spam",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "Bulk marketing newsletter the user never signed up for; no unsubscribe header."
+    },
+    {
+      "file": "emails/benign_005.eml",
+      "expected": "benign/benign",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "HARD: internal IT maintenance notice that asks users to sign in after the window."
+    },
+    {
+      "file": "emails/benign_006.eml",
+      "expected": "benign/benign",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "Internal meeting follow-up between colleagues."
+    },
+    {
+      "file": "emails/benign_008.eml",
+      "expected": "benign/benign",
+      "got": "None/None",
+      "error": "missing",
+      "notes": "HARD: real shipping notification with tracking link."
+    }
+  ]
+}

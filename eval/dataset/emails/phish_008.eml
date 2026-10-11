@@ -1,0 +1,21 @@
+Return-Path: <bounce@northwlnd-traders.example>
+Received: from mail.northwlnd-traders.example ([192.0.2.17]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 16:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=northwlnd-traders.example; dkim=pass
+ header.d=northwlnd-traders.example; dmarc=pass
+ header.from=northwlnd-traders.example
+From: "Sam Carter - Northwind Traders" <sam.carter@northwlnd-traders.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: RE: Invoice 2026-0912 - updated banking details
+Date: Tue, 01 Sep 2026 16:00:00 +0000
+Message-ID: <phish_008@northwlnd-traders.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, due to an audit our bank details have changed. Please make the payment=
+ for invoice 2026-0912 (48,250.00 EUR) to the new account below and confirm o=
+nce done.
+IBAN: XX00 0000 0000 0000 0000 00
+Please do not call the old number, it is out of service.

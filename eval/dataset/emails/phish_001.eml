@@ -1,0 +1,33 @@
+Return-Path: <bounce@m365-account-security.example>
+Received: from mail.m365-account-security.example ([192.0.2.10]) by
+ mx1.testmailbox.example with ESMTPS; Tue, 01 Sep 2026 09:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=m365-account-security.example; dkim=pass
+ header.d=m365-account-security.example; dmarc=pass
+ header.from=m365-account-security.example
+From: "Microsoft 365 Admin" <no-reply@m365-account-security.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Action required: your password expires today
+Date: Tue, 01 Sep 2026 09:00:00 +0000
+Message-ID: <phish_001@m365-account-security.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1653204879011199850=="
+
+--===============1653204879011199850==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your password expires today. Keep your current password: https://login.micros=
+oftonline.example.net/keep
+
+--===============1653204879011199850==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Your mailbox password expires in <b>2 hours</b>.</p><p><a href=3D"https://=
+m365-account-security.example/keep?u=3Dalex.doe">https://login.microsoftonlin=
+e.com/keep-password</a></p><p>Failure to act will lock your account.</p>
+
+--===============1653204879011199850==--
