@@ -4,8 +4,9 @@ An event-driven AI agent that watches an Outlook test mailbox and, for each new 
 whether it is **phishing, BEC, malware delivery, spam, or benign**. It then produces a structured,
 explainable verdict and takes a **safe, reversible** action.
 
-> **Status: early development (milestone M0 of 13 done).** The repository currently contains the
-> project scaffold, a small synthetic eval dataset, and the eval scorer. The analyzers, LLM verdict,
+> **Status: early development (milestones M0 and M1 of 13 done).** The repository currently
+> contains the project scaffold, the email parser with its `.eml` source, a small synthetic eval
+> dataset, and the eval scorer. The analyzers, LLM verdict,
 > mailbox integration and actions described below are the **planned design**, built one milestone
 > at a time. See the [roadmap](#roadmap). No accuracy numbers are reported yet; they will be added
 > only once they are produced by `eval/run_eval.py`.
@@ -97,8 +98,8 @@ this as safe". The design treats this as a headline problem:
 | # | Milestone | Output | Status |
 |---|---|---|---|
 | M0 | Foundations and environment | Repo, venv, tooling, accounts | ✅ Done |
-| M1 | Email parsing + source abstraction | `.eml` → structured model | ⏳ Next |
-| M2 | Header analyzer | SPF/DKIM/DMARC + spoofing signals | Planned |
+| M1 | Email parsing + source abstraction | `.eml` → structured model | ✅ Done |
+| M2 | Header analyzer | SPF/DKIM/DMARC + spoofing signals | ⏳ Next |
 | M3 | Dataset + eval harness | First baseline metrics | Planned (scorer and seed set exist) |
 | M4 | Body and URL analyzer | Link/HTML signals, reputation | Planned |
 | M5 | LLM verdict + schema | Structured verdict, signal fusion | Planned |
@@ -125,7 +126,15 @@ make test              # run pytest
 make lint              # run ruff
 ```
 
-At this stage `make test` runs a single smoke test and no API keys are needed yet.
+No API keys are needed yet. To see what the parser extracts from an email:
+
+```bash
+.venv/bin/python -c "
+from triage.sources import EmlFileSource
+for email in EmlFileSource('eval/dataset/emails/phish_006.eml').messages():
+    print(email.model_dump_json(indent=2))
+"
+```
 
 ## Evaluation
 
