@@ -1,0 +1,34 @@
+From: "Accounts" <ap@litware.example>
+To: alex.doe@testmailbox.example
+Subject: Invoice and photo
+Date: Mon, 05 Oct 2026 12:00:00 +0000
+Message-ID: <att-001@litware.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX"
+
+--MIX
+Content-Type: text/plain; charset="utf-8"
+
+Invoice attached.
+
+--MIX
+Content-Type: application/pdf; name="invoice.pdf"
+Content-Disposition: attachment; filename="invoice.pdf"
+Content-Transfer-Encoding: base64
+
+JVBERi0xLjQKJSBwbGFjZWhvbGRlciwgbm90IGEgcmVhbCBQREYK
+
+--MIX
+Content-Type: text/plain; name="notes.txt"
+Content-Disposition: inline; filename="notes.txt"
+
+These notes are an inline-disposition file, not part of the body.
+
+--MIX
+Content-Type: image/png; name="photo.png"
+Content-Disposition: attachment; filename="photo.png"
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgo=
+
+--MIX--

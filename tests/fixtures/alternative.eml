@@ -1,0 +1,22 @@
+From: Contoso Security <security@contoso.example>
+To: alex.doe@testmailbox.example
+Subject: New sign-in from a new device
+Date: Mon, 05 Oct 2026 11:00:00 +0000
+Message-ID: <alt-001@contoso.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="ALT"
+
+--ALT
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+V2UgZGV0ZWN0ZWQgYSBuZXcgc2lnbi1pbi4gUmV2aWV3OiBodHRwczovL2FjY291bnQuY29udG9z
+by5leGFtcGxlL2FjdGl2aXR5Cg==
+
+--ALT
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<p>We detected a new sign-in.</p><a href="https://account.contoso.example/activity">Review</a>
+
+--ALT--

@@ -1,0 +1,18 @@
+From: "Nordic Shop" <shop@nordic.example>
+To: alex.doe@testmailbox.example
+Subject: Order
+Message-ID: <charset-001@nordic.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="B"
+
+--B
+Content-Type: text/plain; charset="x-made-up"
+
+unknown charset body
+
+--B
+Content-Type: text/plain; charset="utf-8"
+
+København café (latin-1 bytes labelled utf-8)
+
+--B--

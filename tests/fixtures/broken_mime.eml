@@ -1,0 +1,8 @@
+From: someone@broken.example
+To: alex.doe@testmailbox.example
+Subject: Broken multipart
+Message-ID: <broken-001@broken.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed
+
+There is no boundary parameter, so this multipart cannot be split.
