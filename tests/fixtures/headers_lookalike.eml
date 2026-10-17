@@ -1,0 +1,16 @@
+Return-Path: <bounce@northwlnd-traders.example>
+Received: from mail.northwlnd-traders.example ([192.0.2.60]) by
+ mx1.testmailbox.example with ESMTPS; Mon, 05 Oct 2026 12:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=northwlnd-traders.example; dkim=pass
+ header.d=northwlnd-traders.example; dmarc=pass
+ header.from=northwlnd-traders.example
+From: "Sam Carter - Northwind Traders" <sam.carter@northwlnd-traders.example>
+Reply-To: <billing@xn--mcrosoft-thh.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Updated bank details for invoice 4471
+Date: Mon, 05 Oct 2026 12:00:00 +0000
+Message-ID: <headers-lookalike@northwlnd-traders.example>
+Content-Type: text/plain; charset="utf-8"
+
+Please send this month's payment to our new account.

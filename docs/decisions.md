@@ -29,3 +29,29 @@ their body is not mixed into the outer email's body.
 `pydantic` (listed in the project's tech stack) validates every cross-module model. URL extraction
 in M1 is a simple regex over both bodies; `beautifulsoup4` is deferred to M4, where link text vs
 `href` analysis actually needs an HTML parser.
+
+## ADR-005: Trust only our own server's Authentication-Results (M2)
+
+Anyone can write an `Authentication-Results` header into a message before sending it. Only the
+one added by our receiving server is real, so `HeaderConfig.trusted_authserv_ids` lists that
+server (`mx1.testmailbox.example`) and every other copy becomes an `auth_results_untrusted`
+signal. The receiving server adds its header on top, so the first trusted one is used. We do
+not re-verify SPF/DKIM ourselves (`dkimpy`/`pyspf`); that would need DNS lookups at analysis
+time and the receiving server already did the work.
+
+## ADR-006: Organizational domain without the Public Suffix List (M2)
+
+Alignment and mismatch checks compare organizational domains (`mail.contoso.example` ->
+`contoso.example`). We use "last two labels" plus a short list of two-label suffixes such as
+`com.tr` and `co.uk`, instead of adding `tldextract`. It is enough for the dataset and easy to
+explain. If real-world mail with unusual suffixes appears, switch to `tldextract` (needs approval
+as a new dependency).
+
+## ADR-007: Simple, documented header risk score (M2)
+
+`header_risk_score` adds points per signal by severity (info 0, low 5, medium 15, high 30) and
+caps the total at 100. Points are a starting guess, not tuned; M3 measures them on the dev split
+before any change. The protected-brand list in `DEFAULT_CONFIG` includes the fictional companies
+of the dataset scenario (Contoso, Fabrikam, Northwind), as a real company would list its own
+vendors. This helps header-only results on this dataset and must be disclosed next to any
+header-only metric.

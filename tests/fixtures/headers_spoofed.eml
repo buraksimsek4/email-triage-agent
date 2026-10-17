@@ -1,0 +1,15 @@
+Return-Path: <mailer@bulk-sender-77.example>
+Received: from unknown ([198.51.100.7]) by mx1.testmailbox.example with ESMTP;
+ Mon, 05 Oct 2026 10:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=fail
+ smtp.mailfrom=contoso.example; dkim=none; dmarc=fail (p=reject)
+ header.from=contoso.example
+From: "Microsoft 365 Security" <security@contoso.example>
+Reply-To: helpdesk-team@freemail-box.example
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Unusual sign-in activity
+Date: Mon, 05 Oct 2026 10:00:00 +0000
+Message-ID: <headers-spoofed@contoso.example>
+Content-Type: text/plain; charset="utf-8"
+
+Reply with your username to keep your account.

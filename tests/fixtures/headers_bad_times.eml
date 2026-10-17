@@ -1,0 +1,14 @@
+Received: from relay2.example ([192.0.2.90]) by mx1.testmailbox.example with
+ ESMTP; Mon, 05 Oct 2026 15:00:00 +0000
+Received: from relay1.example by relay2.example with ESMTP;
+ Tue, 06 Oct 2026 09:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=none
+ smtp.mailfrom=relay1.example; dkim=none; dmarc=none header.from=relay1.example
+From: <notice@relay1.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Pinned to the top of your inbox
+Date: Fri, 01 Jan 2027 00:00:00 +0000
+Message-ID: <headers-times@relay1.example>
+Content-Type: text/plain; charset="utf-8"
+
+This message claims to be from the future.

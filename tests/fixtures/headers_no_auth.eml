@@ -1,0 +1,7 @@
+From: "Litware Billing" <billing@litware.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Invoice
+Message-ID: <headers-no-auth@litware.example>
+Content-Type: text/plain; charset="utf-8"
+
+No Received, no Date, no Authentication-Results.

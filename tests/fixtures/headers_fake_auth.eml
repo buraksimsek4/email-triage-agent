@@ -1,0 +1,14 @@
+Received: from mail.evil-relay.example ([203.0.113.9]) by mx1.testmailbox.example
+ with ESMTP; Mon, 05 Oct 2026 11:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=fail
+ smtp.mailfrom=fabrikam.example; dkim=none; dmarc=fail header.from=fabrikam.example
+Authentication-Results: mx.fabrikam.example; spf=pass smtp.mailfrom=fabrikam.example;
+ dkim=pass header.d=fabrikam.example; dmarc=pass header.from=fabrikam.example
+From: "Fabrikam Payroll" <payroll@fabrikam.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Payslip correction
+Date: Mon, 05 Oct 2026 11:00:00 +0000
+Message-ID: <headers-fake-auth@fabrikam.example>
+Content-Type: text/plain; charset="utf-8"
+
+See the corrected payslip.
