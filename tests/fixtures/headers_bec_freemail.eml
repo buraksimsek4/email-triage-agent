@@ -1,0 +1,14 @@
+Return-Path: <jordan.miles.ceo@freemail-box.example>
+Received: from mail.freemail-box.example ([192.0.2.70]) by
+ mx1.testmailbox.example with ESMTPS; Mon, 05 Oct 2026 13:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=freemail-box.example; dkim=pass header.d=freemail-box.example;
+ dmarc=pass header.from=freemail-box.example
+From: "Jordan Miles (CEO)" <jordan.miles.ceo@freemail-box.example>
+To: Alex Doe <alex.doe@testmailbox.example>
+Subject: Quick favor
+Date: Mon, 05 Oct 2026 13:00:00 +0000
+Message-ID: <headers-bec@freemail-box.example>
+Content-Type: text/plain; charset="utf-8"
+
+Are you at your desk? I need a quick favor.

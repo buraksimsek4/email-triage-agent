@@ -1,0 +1,15 @@
+Return-Path: <sec-discuss-bounces@lists.example>
+Received: from mail.lists.example ([192.0.2.80]) by mx1.testmailbox.example
+ with ESMTPS; Mon, 05 Oct 2026 14:00:00 +0000
+Authentication-Results: mx1.testmailbox.example; spf=pass
+ smtp.mailfrom=lists.example; dkim=fail header.d=adatum.example; dmarc=fail
+ header.from=adatum.example; arc=pass
+From: "Chris Lee" <chris.lee@adatum.example>
+To: sec-discuss@lists.example
+Subject: [sec-discuss] Meeting notes
+Date: Mon, 05 Oct 2026 13:59:00 +0000
+Message-ID: <headers-list@adatum.example>
+List-Id: <sec-discuss.lists.example>
+Content-Type: text/plain; charset="utf-8"
+
+Notes from today's call are below.
